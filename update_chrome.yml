@@ -1,7 +1,7 @@
 ---
 
   - name: import version check play
-    import_playbook: /srv/local/playbooks/chrome_version_check.yml
+    import_playbook: ./chrome_version_check.yml
 
   - name: import chrome update play
-    import_playbook: /srv/local/playbooks/chrome_install_update.yml
+    import_playbook: ./chrome_install_update.yml
