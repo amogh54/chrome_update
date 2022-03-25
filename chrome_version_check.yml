@@ -1,6 +1,7 @@
 ---
 - hosts: chrome
   gather_facts: True
+  ignore_unreachable: yes
   become: True
   become_user: amogh.pawaskar
   tasks:
